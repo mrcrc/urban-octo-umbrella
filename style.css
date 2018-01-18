@@ -1,0 +1,273 @@
+html,body{
+	margin: 0;
+	padding: 0;
+}
+.clearfix:before , .clearfix:after{
+	content: "";
+	display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.container {
+	width: 100%;
+	height: 100%;
+}
+.menu-with {
+	/*background: #ccc;*/
+	width: 100%;
+	/*height: 100px;*/
+}
+.menu {
+	width: 80%; 
+	margin: 0 auto;
+}
+.logo{
+	width: 20%;
+	float: left;
+	padding: 10px;
+}
+.logo img{
+	height: 57px;
+}
+.navbar{
+	width: 78%;
+	float: right;
+}
+.navbar ul{
+	margin: 0;
+	padding: 0;
+	margin-top: 10px;
+	list-style: none;
+	float: right;
+}
+.navbar ul li{
+	float: left;
+}
+.navbar ul li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	color: #333;
+	letter-spacing: 1px;
+	font-size: 14px;
+	border-top: 4px solid #00000000;
+	font-family: 'Lato', sans-serif;
+}
+.navbar ul li a:hover{
+	border-top: 4px solid #2aace3;
+}
+.ourpice{
+	width: 100%;
+	height: 566px;
+	background-image: url('img/pricing-bg.jpg');
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+.ourpice .descwith{
+	width: 80%;
+	margin: 0 auto;
+	
+}
+.ourpice .textdecs{
+	position: relative;
+	top: 180px;
+	text-align: center;
+}
+.ourpice .textdecs h1{
+	margin: 0;
+	line-height: 128px;
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: 76px;
+	font-weight: 600;
+}
+.ourpice .textdecs p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	letter-spacing: 2px;
+	color: #fff;
+	line-height: 28px;
+}
+/*.g-line{
+	height: 5px;
+	border-left: 4px solid #4593be;
+}*/
+.section-2 {
+	width: 100%;
+	height: 250px;
+	padding-top: 10px;
+}
+.section-width {
+	width: 80%;
+	margin: 0 auto;
+
+}
+.section-width p{
+	font-family: 'Montserrat', sans-serif;
+	line-height: 30px;
+	padding: 25px 60px;
+	font-size: 18px;
+	text-align: left;
+}
+.section-3{
+	width: 100%;
+}
+.section-4{
+	width: 100%;
+	padding-top: 20px;
+}
+.section-gtlds{
+	width: 80%;
+	margin: 0 auto;
+}
+.gtlds span{
+	position: relative;
+	border-top: 4px solid #333;
+	width: 50px;
+	float: left;
+	left: -70px;
+	top: 27px;
+	display: block;
+}
+.gtlds h1{
+	margin: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 44px;
+	font-weight: 600;
+	float: left;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.gtlds table{
+	border: 1px solid #ccc;
+	width: 100%;
+	margin-top: 30px;
+}
+.gtlds table th{
+	padding: 10px;
+	text-align: left;
+}
+.gtlds  table tr td{
+	border-top: 1px solid #ccc;
+	border-collapse: collapse;
+	padding: 10px;
+	margin-left: 5px;
+}
+.gtlds  table tr:hover{
+	background-color: #cccccc4d;
+}
+.gtlds  table tr:first-child:hover{
+	background-color: #fff;
+}
+.newgtld-with{
+	width: 100%;
+	margin-top: 20px;
+}
+.newgtld{
+	width: 90%;
+	margin: 0 auto;
+}
+.newgtld a{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	color: #4593be;
+}
+.newgtld a:hover{
+	text-decoration: underline;
+}
+
+.whos-width {
+	width: 100%;
+	height: 250px;
+	background-image: url('img/footer.jpg');
+	margin-top: 80px;
+}
+.whos{
+
+	width: 70%;
+	margin: 0 auto;
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+	background-position: center top;
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	padding-top: 50px;
+	
+
+
+}
+.addr{
+	width: 400px;
+	float: left;
+}
+.save{
+	color: #4593be;
+	font-size: 12px;
+	font-weight: 600;
+}
+.search{
+	float: left;
+}
+.search #search{
+	width: 300px;
+	font-family: 'Montserrat', sans-serif;
+	line-height: 20px;
+	padding: 10px;
+	background-color: #3333332e;
+	border: 1px solid #333;
+	color: #fff;
+}
+.search #submit{
+	width: 100px;
+	background-color: #4593be;
+	padding: 11px;
+	border: none;
+	line-height: 20px;
+	cursor: pointer;
+}
+.search #submit:hover{
+	background-color: #4593bec9;
+}
+.footer{
+	width: 100%;
+}
+.menu-buttom{
+	width: 60%;
+	margin: 0 auto;
+}
+.menu-buttom ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	margin-top: 20px;
+}
+.menu-buttom ul li{
+	float: left;
+}
+.menu-buttom ul li a{
+	display: block;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding: 10px;
+	color: #696969;
+	letter-spacing: 1px;
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+}
+.menu-buttom ul li a:hover{
+	color: #333;
+}
+.menu-buttom p{
+	font-size: 14px;
+	font-family: 'Lato', sans-serif;
+	text-align: center;
+}
